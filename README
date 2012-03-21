@@ -22,7 +22,8 @@ This program has been tested with python 2.5. It requires PyQt4, NumPy,
 SciPy and PyOpenGL >= 3.0. It has been tested with PyQt4 4.4.4, NumPy 1.2.1,
 SciPy 0.7.0 and PyOpenGL 3.0.0.
 
-	apt-get install python-qt4 python-numpy python-scipy python-opengl python-qt4-gl
+	apt-get install python-qt4 python-numpy python-scipy \
+	 python-opengl python-qt4-gl python-dev
 
 INSTALLATION
 ------------
@@ -32,10 +33,6 @@ Apart from the dependencies, no installation should be necessary.
 If Ui_MainWindow.py has not been generated, you can do so by running
 
 	./gen.sh
-
-or, on Debian and Debian-derivatives,
-
-	python /usr/share/pyshared/PyQt4/uic/pyuic.py MainWindow.ui > Ui_MainWindow.py
 
 COMMON PROBLEMS
 ---------------
