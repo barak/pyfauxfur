@@ -1,1 +1,2 @@
-Ui_MainWindow.py
+*.pyc
+/Ui_MainWindow.py
